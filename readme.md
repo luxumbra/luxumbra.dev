@@ -1,7 +1,7 @@
-# Three.js Journey
+# luxumbra.dev
+My little corner of the web.
 
 ## Setup
-Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
 
 ``` bash
@@ -13,4 +13,10 @@ npm run dev
 
 # Build for production in the dist/ directory
 npm run build
+
+# Deploy preview/staging
+npm run deploy:preview
+
+# Deploy production
+npm run deploy:prod
 ```
